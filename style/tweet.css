@@ -1,0 +1,61 @@
+.tweet-container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+}
+
+.tweet-images-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 200px;
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+}
+
+.tweet-text-container{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.tweet-date-container{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #47525D;
+    font-size: 10px;
+}
+
+.tweet-user-info{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tweet-user-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-bottom: 1px solid #979797;
+    background-image: url(/images/profiel_sven.jpg);
+    background-size: contain;
+    }
+
+.tweet-user-name-container{
+    margin-left: 10px;
+}
+
+.tweet-user-fullname{
+    font-size: 10px;
+  
+}
+
+.tweet-user-username{
+    font-size: 8px;
+}
