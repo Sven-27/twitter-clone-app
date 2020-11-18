@@ -87,3 +87,30 @@
 .tweet-user-username{
     font-size: 8px;
 }
+
+.next-page-container{
+   padding: 6px;
+    border: 1px solid #1c1c1c;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 20px;
+    text-align: center;
+    color: #47525d;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+}
+
+.next-page-container:hover{
+    background-color: #1c1c1c;
+    cursor: pointer;
+}
+
+.tweets-welcome-message h5{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.tweets-welcome-message p{
+    font-size: 12px;
+    text-align: center;
+}
